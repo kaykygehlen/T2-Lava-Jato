@@ -1,0 +1,64 @@
+{
+    "clientes": [
+        {
+            "cpf": "11122233344",
+            "nome": "Carlos Eduardo Silva",
+            "sexo": "Masculino",
+            "telefone": "(66) 99911-2233",
+            "endereco": "Rua das Acácias, 450 - Centro",
+            "status": "Ativo"
+        },
+        {
+            "cpf": "55566677788",
+            "nome": "Mariana Souza Mendes",
+            "sexo": "Feminino",
+            "telefone": "(66) 99844-5566",
+            "endereco": "Av. Brasil, 1200 - Jardim das Palmeiras",
+            "status": "Ativo"
+        }
+    ],
+    "veiculos": [
+        {
+            "placa": "ABC1D23",
+            "marca": "Toyota",
+            "modelo": "Corolla",
+            "cor": "Prata",
+            "ano": 2022,
+            "cpf_cliente": "11122233344",
+            "status": "Ativo"
+        },
+        {
+            "placa": "XYZ9K88",
+            "marca": "Fiat",
+            "modelo": "Strada",
+            "cor": "Branca",
+            "ano": 2023,
+            "cpf_cliente": "55566677788",
+            "status": "Ativo"
+        }
+    ],
+    "servicos": [
+        {
+            "id": 1,
+            "placa": "ABC1D23",
+            "cpf_cliente": "11122233344",
+            "nome_cliente": "Carlos Eduardo Silva",
+            "tipo_lavagem": "Lavagem Completa (Externa + Interna)",
+            "valor": 70.0,
+            "forma_pagamento": "Pix",
+            "data_hora": "23/11/2026 09:30",
+            "status": "Concluído"
+        },
+        {
+            "id": 2,
+            "placa": "XYZ9K88",
+            "cpf_cliente": "55566677788",
+            "nome_cliente": "Mariana Souza Mendes",
+            "tipo_lavagem": "Lavagem Simples (Externa)",
+            "valor": 45.0,
+            "forma_pagamento": "A definir",
+            "data_hora": "23/11/2026 11:15",
+            "status": "Em Aberto"
+        }
+    ]
+}
